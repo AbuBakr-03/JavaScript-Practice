@@ -1,0 +1,43 @@
+Git works on the principles of the edit, stage, and commit pattern. 
+
+Git add command to tell Git that the file is staged to be committed and that any further changes to the file will be tracked going forward.
+
+So, staging changes is like reaching a checkpoint in the game and preparing to save your progress, while committing changes is like confirming that progress and saving it permanently to your game file.
+
+
+git hub commands:
+
+git clone/pull (pull request is telling the team that i have made change and seek approval to merge)
+
+git init to create a local repos
+
+git status (where changes were made)
+
+git log --pretty=oneline (list of all changes)
+
+git diff file.txt (what changes were made in the file before committing)
+
+git diff commitID commitID (changes made between two commits)
+
+git diff branch1 branch2 (changes made between two branches)
+
+git blame file.txt (who made changes)
+
+git branch : List Branches
+git branch new_branch_name : create new branch
+git branch -m new_branch_name : rename branch
+git branch -d branch_name : delete branch
+git checkout branch_name : switch branch
+git checkout -b new_branch_name : create and switch new branch
+
+git add
+
+git commit -m "message"
+
+git push (Git compares a snapshot of your local repository with the remote one and only replaces the files that have been changed)
+
+git remote -v shows where the repo is stored in github
+
+git remote add to add local repos to github
+
+mkdir>cd>git clone/pull, git status,  git checkout -b new_branch_name, git add, git commit, git push
